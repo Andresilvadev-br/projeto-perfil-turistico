@@ -1,5 +1,5 @@
 🌍✨ TravelGram – Explore o Mundo Através de Cores, Fotos e Emoções
-<p align="center"> <img src="https://imgur.com/EvUxqx1.png" width="100%" alt="Banner do Projeto"/> </p> <p align="center"> <strong>Um projeto moderno, elegante e vibrante que simula um perfil de viajante com galeria interativa e animações suaves.</strong> </p>
+<p align="center"> <img width="1263" height="949" alt="image" src="https://github.com/user-attachments/assets/59864ef6-c8d7-4572-bdd6-0fccdbc5e5fd" /> </p> <p align="center"> <strong>Um projeto moderno, elegante e vibrante que simula um perfil de viajante com galeria interativa e animações suaves.</strong> </p>
 🏅 Status do Projeto
 <p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/VERS%C3%83O-1.0-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/LICEN%C3%87A-MIT-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/FEITO%20COM-HTML%20%7C%20CSS-orange?style=for-the-badge"/> </p>
 📸 Preview do Projeto
