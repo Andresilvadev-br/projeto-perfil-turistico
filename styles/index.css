@@ -3,3 +3,103 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    animation: showModal .25s ease;
+}
+
+@keyframes showModal {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.modal-content img {
+    width: 450px;
+    max-height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#like-btn {
+    background: #ff3b30;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#like-btn.liked {
+    background: #ff8c00;
+    transform: scale(1.08);
+}
+
+.heart-animation {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: url('https://i.imgur.com/5XyUqNQ.png') no-repeat center/contain;
+    opacity: 0;
+    transform: scale(0.3);
+    pointer-events: none;
+    z-index: 50;
+}
+
+.heart-animation.active {
+    animation: heartPop 0.7s ease forwards;
+}
+
+@keyframes heartPop {
+    0% { opacity: 0; transform: scale(0.3); }
+    40% { opacity: 1; transform: scale(1.15); }
+    100% { opacity: 0; transform: scale(0.3); }
+}
+
+#toggle-theme {
+    margin-left: auto;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dark {
+    background: #111;
+    color: #eee;
+}
+
+.dark .surface-color {
+    background: #222;
+}
+
+.dark nav a,
+.dark footer span {
+    color: #fff;
+}
+
+.dark #toggle-theme {
+    background: #ff8c00;
+}

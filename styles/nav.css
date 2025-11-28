@@ -22,4 +22,17 @@ nav ul li:last-child img {
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
+    
+}
+#miniperfil:hover{
+     transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border: 2px solid #ff8c00;
+}
+#miniperfil {
+       transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border 0.3s ease;
+    border: 2px solid transparent;
 }
