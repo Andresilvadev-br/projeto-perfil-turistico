@@ -1,4 +1,4 @@
-![1758277317994](https://github.com/user-attachments/assets/34da3941-7f0a-4130-b287-95f7682d9de1)🌍✨ TravelGram – Explore o Mundo Através de Cores, Fotos e Emoções
+🌍✨ TravelGram – Explore o Mundo Através de Cores, Fotos e Emoções
 <p align="center"> <img width="1263" height="949" alt="image" src="https://github.com/user-attachments/assets/59864ef6-c8d7-4572-bdd6-0fccdbc5e5fd" /> </p> <p align="center"> <strong>Um projeto moderno, elegante e vibrante que simula um perfil de viajante com galeria interativa e animações suaves.</strong> </p>
 🏅 Status do Projeto
 <p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/VERS%C3%83O-1.0-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/LICEN%C3%87A-MIT-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/FEITO%20COM-HTML%20%7C%20CSS-orange?style=for-the-badge"/> </p>
@@ -119,8 +119,8 @@ Sim! Totalmente liberado.
 Nada — só abrir o index.html.
 
 🧑‍🎨 Autor
-<table> <tr> <td align="center">! [Uploading 1758277317994.jpg…]()
-  <br> <strong>Seu Nome Aqui</strong> <br> <a href="https://github.com/Andresilvadev-br">GitHub</a> • <a href="https://www.linkedin.com/in/andremarciliodev/">Portfolio</a> </td> </tr> </table>
+<table> <tr> <td align="center">! 
+  <br> <strong>André Marcilio da Silva Ferreira </strong> <br> <a href="https://github.com/Andresilvadev-br">GitHub</a> • <a href="https://www.linkedin.com/in/andremarciliodev/">Portfolio</a> </td> </tr> </table>
 📜 Licença
 
 Este projeto está sob a licença MIT.
