@@ -1,54 +1,71 @@
-🌍✨ TravelGram — Compartilhe o Mundo em Fotos!
-<p align="center"> <img src="assets/Logo.svg" width="200px" alt="Logo TravelGram"/> </p> <p align="center"> <strong>Uma página inspirada em redes sociais de viagem, com design moderno, animações suaves e galeria responsiva.</strong> </p>
-📸 Visão Geral
+🌍✨ TravelGram – Explore o Mundo Através de Cores, Fotos e Emoções
+<p align="center"> <img src="https://imgur.com/EvUxqx1.png" width="100%" alt="Banner do Projeto"/> </p> <p align="center"> <strong>Um projeto moderno, elegante e vibrante que simula um perfil de viajante com galeria interativa e animações suaves.</strong> </p>
+🏅 Status do Projeto
+<p align="center"> <img src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/VERS%C3%83O-1.0-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/LICEN%C3%87A-MIT-yellow?style=for-the-badge"/> <img src="https://img.shields.io/badge/FEITO%20COM-HTML%20%7C%20CSS-orange?style=for-the-badge"/> </p>
+📸 Preview do Projeto
 
-O TravelGram é uma página web que imita o visual de um perfil de viagens, destacando fotos, localização, número de países visitados e uma biografia personalizada.
+<img width="1263" height="949" alt="image" src="https://github.com/user-attachments/assets/59864ef6-c8d7-4572-bdd6-0fccdbc5e5fd" />
 
-Ele foi desenvolvido com:
 
-HTML5
+<p align="center"> <img src="assets/Image 01.png" width="300px"/> <img src="assets/Image 02.png" width="300px"/> <img src="assets/Image 03.png" width="300px"/> </p>
+✨ Descrição do Projeto
 
-CSS3
+O TravelGram é uma página inspirada no estilo de perfis de viagens, como Instagram e VSCO, criada para estudo e para compor portfólios modernos.
 
-Animações e efeitos de hover
+Ela apresenta:
 
-Layout organizado em componentes
+Perfil completo da viajante
 
-Visual limpo e inspirado em apps modernos
+Galeria responsiva
 
-Ideal para estudos, portfólio ou inspiração para projetos maiores.
+Ícones, avatar e contadores
 
-✨ Demonstração Visual
+Design minimalista e elegante
 
-Você pode adicionar imagens aqui do seu projeto depois.
+Efeitos de hover com borda laranja
 
-<p align="center"> <img src="assets/Image 01.png" width="400px" alt="Preview TravelGram"/> </p>
-🧭 Funcionalidades
-
-✔ Perfil do usuário com avatar e descrição
-✔ Menu superior com botões interativos
-✔ Lista lateral com informações da viajante
-✔ Galeria com 12 fotos em grid
-✔ Efeito hover com flutuação e borda laranja
-✔ Layout espaçado, limpo e responsivo
-✔ Footer com informações adicionais
+Estrutura modular de CSS
 
 🎨 Destaques do Design
-💠 Efeito de Flutuar nas Imagens
+🔸 Efeito FLUTUAR com borda laranja 🔥
 main img:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     border: 2px solid #ff8c00;
 }
 
-💠 Efeito no Perfil
+🔸 Perfil também possui animação
 #profile:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 20px rgba(255, 140, 0, 0.35);
     border: 2px solid #ff8c00;
 }
 
-📁 Estrutura do Projeto
+🔸 Layout 100% Flexbox
+
+Organização inteligente e responsiva.
+
+🧭 Funcionalidades
+
+✔ Menu superior funcional e estilizado
+✔ Perfil com foto, nome e descrição
+✔ Lista lateral: localização, países e fotos
+✔ Galeria com 12 imagens reais
+✔ Hover com borda laranja + sombra
+✔ Página fluida, limpa e moderna
+✔ Rodapé informativo
+✔ Modularização de CSS
+✔ Totalmente responsivo (mobile-friendly)
+
+🛠 Tecnologias Utilizadas
+Tecnologia	Finalidade
+HTML5	Estrutura do projeto
+CSS3	Estilização geral
+Google Fonts (Inter)	Tipografia moderna
+Flexbox	Organização dos elementos
+CSS Variables	Design escalável
+Hover Effects	Interatividade
+📁 Estrutura Completa do Projeto
 travelgram/
 │ index.html
 │
@@ -57,7 +74,7 @@ travelgram/
 │   ├── Profile pic.png
 │   ├── Image 01.png
 │   ├── Image 02.png
-│   └── (... resto das imagens)
+│   └── Image 03–12.png
 │
 └── styles/
     ├── index.css
@@ -67,72 +84,47 @@ travelgram/
     ├── main.css
     └── footer.css
 
-🛠️ Tecnologias Utilizadas
-Tecnologia	Descrição
-HTML5	Estrutura da página
-CSS3	Estilos, variáveis, layout e responsividade
-Google Fonts – Inter	Tipografia moderna
-Flexbox	Organização do layout
-Hover Effects	Animações suaves e interativas
-🚀 Como Executar o Projeto
+🚀 Como Rodar o Projeto
+🔽 Clone o repositório
+git clone https://github.com/seu-usuario/travelgram.git
 
-Clone o repositório:
+📂 Entre na pasta
+cd travelgram
 
-git clone https://github.com/seu-usuario/TravelGram.git
-
-
-Acesse a pasta:
-
-cd TravelGram
-
-
-Abra o arquivo:
-
+🌐 Abra o arquivo principal
 index.html
 
 
-E pronto! O projeto abre direto no navegador.
+➡ Ele abrirá direto no navegador.
 
-📝 Código Base Organizado
+📦 Possíveis Melhorias Futuras
 
-O projeto segue uma estrutura modular:
+🔧 Tema claro/escuro
+🔧 Modo de galeria em tela cheia
+🔧 Animações com GSAP ou Framer Motion
+🔧 Conversão para React
+🔧 Versão Mobile-App com Expo
 
-index.html → estrutura principal
+📚 FAQ – Perguntas Frequentes
+❓ A página é responsiva?
 
-global.css → resets + variáveis
+Sim, construída usando Flexbox e espaçamentos fluidos.
 
-nav.css → navegação
+❓ Posso usar esse projeto no meu portfólio?
 
-header.css → card do perfil
+Sim! Totalmente liberado.
 
-main.css → galeria
+❓ Preciso instalar algo?
 
-footer.css → rodapé
+Nada — só abrir o index.html.
 
-index.css → centraliza todos os imports
-
-👩‍💻 Sobre o Projeto
-
-O TravelGram simula o perfil de uma viajante chamada Isabela Torres, que compartilha suas experiências pelo mundo e já visitou 37 países.
-
-Este projeto foi feito para:
-
-Estudar HTML e CSS
-
-Criar componentes reutilizáveis
-
-Treinar responsividade
-
-Praticar efeitos de hover modernos
-
-Montar uma página bonita para portfólio
-
-⭐ Contribuições
-
-Contribuições são bem-vindas!
-Sugestões, melhorias ou novas ideias?
-Abra um issue ou pull request ❤️
-
+🧑‍🎨 Autor
+<table> <tr> <td align="center"> <img src="assets/Profile pic.png" width="120px" style="border-radius:50%"> <br> <strong>Seu Nome Aqui</strong> <br> <a href="https://github.com/seu-usuario">GitHub</a> • <a href="#">Portfolio</a> </td> </tr> </table>
 📜 Licença
 
-Este projeto é de uso livre para fins educacionais e portfólios.
+Este projeto está sob a licença MIT.
+Você pode usar, modificar e distribuir livremente — apenas mantenha os créditos.
+
+🌟 Se este projeto te ajudou, deixe uma estrela no GitHub!
+
+Isso me motiva a continuar criando projetos incríveis. ⭐💛
