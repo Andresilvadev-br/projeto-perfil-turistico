@@ -14,9 +14,9 @@
     --text-color-secondary: #6C6C6C;
 
     --font-family: ""Inter", sans-serif";
-    --text-lg: bold 32px/125% var(--font-family) ;
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
+    --text-lg: bold 90px/125% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
     --text: 16px/1.5 var(--font-family);
 }
 
@@ -42,4 +42,5 @@ a:hover{
 }
 .surface-color{
     background-color: var(--surface-color);
+
 }
